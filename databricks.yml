@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for dbt_course.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: dbt_course
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-23fb7e10-c816.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-23fb7e10-c816.cloud.databricks.com
