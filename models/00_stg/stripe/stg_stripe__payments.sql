@@ -1,0 +1,9 @@
+select
+    ID,
+    ORDERID,
+    PAYMENTMETHOD,
+    STATUS,
+    AMOUNT,
+    CREATED
+from
+    one_lake_dev.bronze.tb_eco_stripe__payments
